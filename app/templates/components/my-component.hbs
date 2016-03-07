@@ -1,0 +1,8 @@
+
+{{#each things as |thing|}}
+  <div class='thing'>
+    {{thing.text}}
+  </div>
+{{/each}}
+
+<button id="adder" {{action 'addThing'}}>Add a thing</button>
